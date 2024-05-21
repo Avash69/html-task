@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width-device-width,initial-scale=1.0"
+    <title>My Form</title>
+</head>
+<body>
+    <form action="localhost:8080/save"method="post">
+        <div>
+            <label>Username</label>
+            <input type="password" name="password">
+        </div>
+
+        <div>
+            <label>email</label>
+            <input type="email" name="passwrd">
+        </div>
+
+        <div>
+            <label>Gender</label>
+            Male: <input type="radio" name="gender" value="1"/>
+            Female: <input type="radio" name="gender" value="0"/>
+        </div>
+        <div>
+            <label>Options</label>
+            Option1:<input type="checkbox" name="option" id="1">
+            Option2:<input type="checkbox" name="option" id="2">
+            Option3:<input type="checkbox" name="option" id="3">
+        </div>
+        <div>
+            <label>Dropdown</label>
+            <select name="Dropdown">
+                option value="2"
+            </select>
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
