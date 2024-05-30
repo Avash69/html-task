@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrom Board</title>
+    <style>
+        .board {
+            background-color: lightbrown;
+            width: 500px;
+            height: 500px;
+            position: relative;
+            border: 10px solid brown;
+            margin: 20px auto;
+        }
+        .pocket {
+            width: 50px;
+            height: 50px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .pocket1 { top: 0; left: 0; }
+        .pocket2 { top: 0; right: 0; }
+        .pocket3 { bottom: 0; left: 0; }
+        .pocket4 { bottom: 0; right: 0; }
+    </style>
+</head>
+<body>
+    <div class="board">
+        <div class="pocket pocket1"></div>
+        <div class="pocket pocket2"></div>
+        <div class="pocket pocket3"></div>
+        <div class="pocket pocket4"></div>
+    </div>
+</body>
+</html>
